@@ -1,0 +1,126 @@
+.containerDetail{
+    margin-top: 140px;
+}
+
+.container{
+   
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(255, 255, 255);
+    background-color: #06142E;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+    padding:10px;
+    width: 270px;
+    margin: 5px;
+    height: 440px;
+    margin-bottom:20px;
+}
+
+
+.positionImg img{
+    position: absolute;
+    align-items: center;
+    top: 5%;
+    transform: translateX(-50%);
+    border-radius: 2em;
+    height: 250px;
+    box-shadow: 2px 2px 8px 8px #1B3358;
+    
+}
+@font-face {
+    font-family: 'Schwifty';
+    src: url(../../assets/fonts/get_schwifty.ttf) format('truetype');
+} 
+
+
+.name{
+    color:#00db00;
+    background-color: #011A27;
+    position: absolute;
+    transform: translateX(-50%);
+    top: -25px;
+    font-family: 'Schwifty', Arial, Helvetica, sans-serif;
+   
+    /* text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black; */
+    text-shadow: -1px -1px 0 whitesmoke, 1px -1px 0 whitesmoke, -1px 1px 0 whitesmoke, 1px 1px 0 whitesmoke;
+    /* border: solid #06142E 3px; */
+    border-radius: 2em;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+}
+
+.data{
+    font-size: 8px ;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: row;
+    
+    margin-top: 16px;
+    /* position: absolute; */
+    /* bottom: 5%; */
+    box-sizing: border-box;
+    /* padding: 10px; */
+    /* border: solid black 10px; */
+    height:190px;
+    width: 300px;
+    font-size: 8.5px;
+    text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+h2 {
+  margin: 5px 0;
+}
+
+.data2{
+    display: flex;
+    align-items:baseline;
+    justify-content: right;
+    flex-direction: column;
+    height: fit-content;
+    color:#6eff3e;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+    
+}
+.data3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    flex-direction: column;
+    height: fit-content;
+    font-weight: bold;
+    
+}
+
+.btn{
+    height: 25px;
+    width: 50px;
+    color:#030b18;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #F5D7DB;
+    border-radius: 2em;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-weight: bold;
+    transform: translateX(-50%);
+   
+}
+.btn:hover{
+    /* color: #F5D7DB; */
+    /* background-color:#030b18; */
+    color: #030b18;
+    background-color:#662549;;
+    
+}

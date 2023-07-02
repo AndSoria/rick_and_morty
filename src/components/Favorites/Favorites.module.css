@@ -1,0 +1,73 @@
+/* 
+.windowFav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: stretch;
+    flex-direction: row;
+    padding-top: 150px;
+    border: 2px solid green;
+
+}
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: stretch;
+    flex-direction: row;
+    padding-top: 150px;
+    
+}
+
+.option{
+border: 5px solid green;
+    color: green;
+    background-color: transparent;
+} */
+
+
+
+.windowFav {
+    /* background-color: rgba(255, 255, 255, 0.5); Glass effect background */
+    position: relative;
+    top: 90px; /* Para estar debajo de la navbar */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+   
+    
+}
+
+.containerCards {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: stretch;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.filters{
+    /* margin-left: 10px; */
+    background-color: #011A27 ;
+    height: 40px;
+    width: 300px;
+    /* border-radius: 10em; */
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    box-shadow: 2px 2px 8px 8px #1B3358;
+    transform: translateX(-50%);
+   
+
+}
+
+.filtersSelect :hover{
+    cursor: pointer;
+    border: #011A27 4px solid;
+    color: green
+}

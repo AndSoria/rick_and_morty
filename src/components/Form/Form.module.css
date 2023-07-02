@@ -1,0 +1,69 @@
+.containerForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 10%;
+    border: 1px solid #ffffff44;
+    border-radius: 20px;
+    box-shadow: 0 7px 50px 10px #000000aa;
+    font-weight: 700;
+    height: 350px;
+    width: 500px;
+    background-color: #000000aa;
+
+ 
+}
+
+.containerFormInput{
+    border-radius: 8px;
+    border: 2px solid #1b1c1e;
+    width: 250px;
+    height: 20px;
+    margin-top: 10px;
+    
+}
+
+.containerFormButton{
+    border-radius: 5px;
+    border: 1px solid #ffffff44;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    color: whitesmoke;
+    /* background: rgb(0,0,0); */
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, #122453 50%, rgba(0,0,0,1) 100%);
+    position: relative;
+    bottom: -15px;
+}
+
+.spanErrors{
+    color:#ff1903;
+    font-size: 13px;
+}
+
+.containerData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 120px;
+    width: 396px;
+    -webkit-text-stroke: 0.5px #06142E;
+    row-gap: 3px;
+    margin: 0 2px;
+   
+}
+.containerImage{
+    position: relative;
+    top: -30px;
+    /* right: 30px; */
+    width: 396px;
+    height: 130px; 
+    overflow: visible;
+    background-image: url(../../assets/image/16-165525_rick-and-morty-portal-png.png);
+    background-position: fixed;
+    background-size: cover;
+    
+}
+

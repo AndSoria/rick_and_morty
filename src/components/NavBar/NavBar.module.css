@@ -1,0 +1,67 @@
+.nav
+{
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   display: flex;
+   align-items:center;
+   flex-direction: column;
+   width: 100%;
+   justify-content:space-between;
+   height: 80px;
+
+   
+   background: rgba(1, 26, 39, 0.78);
+   border-radius: 16px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(6px);
+   -webkit-backdrop-filter: blur(6px);
+   border: 1px solid rgba(1, 26, 39, 1);
+   
+}
+
+.containerTitle{
+   height: 25px;
+}
+
+@font-face {
+    font-family: 'Schwifty';
+    src: url('../../assets/fonts/get_schwifty.ttf') format('truetype');
+ } 
+ .Titulo{
+    
+    font-family: 'Schwifty', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #00db00;
+    
+    margin-top: 3px;
+    width: 500px;
+    text-shadow: -1px -1px 0 rgb(87, 114, 11), 1px -1px 0 rgb(114, 172, 16), -1px 1px 0 rgb(109, 186, 2), 1px 1px 0 whitesmoke;
+    
+ }
+ 
+
+ .navButtons{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: row;
+   width: 90vw;
+   margin-bottom: 3px;
+ }
+ 
+ .nav button{
+   background-color: #00000088;
+   color: #00db00;;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+ }
+ 
+.positionSearchBar{
+   position: absolute;
+   margin-top: 90px;
+   left: 0;
+   transform: translateX(50%);
+}
+
